@@ -70,6 +70,7 @@ There are also additional configuration options that can be changed to override 
  * skip_tables: array of table names to skip building fixtures
  * select_sql: sql string to use for select
  * delete_sql: sql string to use for deletes
+ * fixtures_path: string to specify fixture directory
 
 By default these are set as:
 
@@ -79,6 +80,7 @@ By default these are set as:
  * skip_tables: %w{ schema_migrations }
  * select_sql: SELECT * FROM %s
  * delete_sql: DELETE FROM %s
+ * fixtures_path: 'fixtures'
 
 Sequence Collisions
 ===================
